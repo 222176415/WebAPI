@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using EmployeeAdminPortal.Database;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeAdminPortal.Controllers
@@ -8,5 +9,20 @@ namespace EmployeeAdminPortal.Controllers
     [ApiController]
     public class EmployeesController : ControllerBase
     {
+        //private field that will be used for interaction
+        private readonly ApplicationDbContext dbContext;
+
+
+        //inject DB Context to interact with the DB
+        public EmployeesController(ApplicationDbContext dbContext)
+        {
+            this.dbContext = dbContext;
+        }
+        [HttpGet]
+        public IActionResult GetAllEmployees()
+        {
+            var allEmployees = dbContext.Employees.ToList();
+            return Ok(allEmployees);
+        }
     }
 }
