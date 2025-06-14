@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|c:\\users\\asus\\documents\\github\\webapi\\employeeadminportal\\employeeadminportal.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|solutionrelative:employeeadminportal.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|c:\\users\\asus\\documents\\github\\webapi\\employeeadminportal\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|c:\\users\\asus\\documents\\github\\webapi\\employeeadminportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|c:\\users\\asus\\documents\\github\\webapi\\employeeadminportal\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|solutionrelative:database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|c:\\users\\asus\\documents\\github\\webapi\\employeeadminportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|c:\\users\\asus\\documents\\github\\webapi\\employeeadminportal\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|c:\\users\\asus\\documents\\github\\webapi\\employeeadminportal\\models\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|solutionrelative:models\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|c:\\users\\asus\\documents\\github\\webapi\\employeeadminportal\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|c:\\users\\asus\\documents\\github\\webapi\\employeeadminportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3787D286-1124-4543-B46E-758AE5F23B72}|EmployeeAdminPortal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,32 +30,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeAdminPortal.http",
-              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\EmployeeAdminPortal.http",
-              "RelativeDocumentMoniker": "EmployeeAdminPortal.http",
-              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\EmployeeAdminPortal.http",
-              "RelativeToolTip": "EmployeeAdminPortal.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-11T17:54:39.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T17:53:49.14Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T05:23:30.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\Models\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Employee.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\Models\\Entities\\Employee.cs",
+              "RelativeToolTip": "Models\\Entities\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T04:19:53.749Z",
               "EditorCaption": ""
             },
             {
@@ -66,35 +80,22 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-11T17:53:41.311Z",
+              "WhenOpened": "2025-06-13T18:19:19.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\Database\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Database\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\Database\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Database\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T17:52:42.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\WebAPI\\EmployeeAdminPortal\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-11T17:52:08.47Z",
+              "WhenOpened": "2025-06-12T17:58:08.755Z",
               "EditorCaption": ""
             }
           ]
