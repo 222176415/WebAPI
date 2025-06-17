@@ -24,5 +24,15 @@ namespace EmployeeAdminPortal.Controllers
             var allEmployees = dbContext.Employees.ToList();
             return Ok(allEmployees);
         }
+
+        //[HttpGet]
+        //public IActionResult GetAllEmployeeById(int IdNumber)
+        //{
+            //var Employees = dbContext.Employees.Find(Employees.IdNumber === IdNumber);
+
+            //if (Employees == null) {
+                //return NotFound()
+            //return Ok(allEmployees);
+        //}
     }
 }
