@@ -10,6 +10,7 @@ namespace EmployeeAdminPortal.Models.Entities
         public required string  Name { set; get; }
         public string? Surname{ set; get; }
         public string? Gender { set; get; }
+        public string? Phone { set; get; }
         public required string  Email { set; get; }
         public required decimal Salary { get; set; }
     }
