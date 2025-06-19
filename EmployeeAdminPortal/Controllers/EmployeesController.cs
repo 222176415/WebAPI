@@ -1,4 +1,6 @@
 ﻿using EmployeeAdminPortal.Database;
+using EmployeeAdminPortal.Models;
+using EmployeeAdminPortal.Models.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -28,11 +30,36 @@ namespace EmployeeAdminPortal.Controllers
         //[HttpGet]
         //public IActionResult GetAllEmployeeById(int IdNumber)
         //{
-            //var Employees = dbContext.Employees.Find(Employees.IdNumber === IdNumber);
+        //    string EmployeIdNumber = Employee.IdNumber;
+        //    var Employees = dbContext.Employees.Find(EmployeIdNumber === IdNumber);
 
-            //if (Employees == null) {
-                //return NotFound()
-            //return Ok(allEmployees);
+        //    if (Employees == null) {
+        //        return NotFound();
+        //    }
+        //    return Ok(Employees);
         //}
+
+
+
+        [HttpPost]
+        public IActionResult AddEmployee(AddEmployeeDto addEmployee)
+        {
+
+            var employeeEntity = new Employee()
+            {
+                Name = addEmployee.Name,
+                Surname = addEmployee.Surname,
+                IdNumber = addEmployee.IdNumber,
+                Email = addEmployee.Email,
+                Gender = addEmployee.Gender,
+                Salary = addEmployee.Salary,
+
+            };
+
+
+        dbContext.Employees.Add(employeeEntity);
+        dbContext.SaveChanges();
+            return Ok(employeeEntity);
+        }
     }
 }

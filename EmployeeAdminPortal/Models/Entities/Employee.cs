@@ -4,7 +4,8 @@ namespace EmployeeAdminPortal.Models.Entities
 {
     public class Employee
     {
-        public  string EmployeeId { set; get; }
+
+        public string Id { get; set; }  
         public required string IdNumber { set; get; }
         public required string  Name { set; get; }
         public string? Surname{ set; get; }
