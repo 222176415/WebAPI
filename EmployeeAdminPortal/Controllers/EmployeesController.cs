@@ -47,6 +47,7 @@ namespace EmployeeAdminPortal.Controllers
 
             var employeeEntity = new Employee()
             {
+              
                 Name = addEmployee.Name,
                 Surname = addEmployee.Surname,
                 IdNumber = addEmployee.IdNumber,
